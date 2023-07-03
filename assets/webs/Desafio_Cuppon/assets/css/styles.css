@@ -1,0 +1,71 @@
+.barra{
+    background-color: #28a745!important;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21pt;
+    color: white;
+    text-align: center;
+    padding-top: 25pt;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.precio1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+.precio2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+.suscripcion{
+    object-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textoform{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    color: #707070;
+    opacity: 100%;
+}
+
+.bottonform{
+    margin-bottom: 29pt;
+    width: 112.71pt;
+    height: 40pt;
+    background-color: #F8F9FA;
+    border-color: #DDDDDD;
+    border: 1pt;
+    border-radius: 4pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+
+}
+
+.footer{
+    color: #707070!important;
+    object-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

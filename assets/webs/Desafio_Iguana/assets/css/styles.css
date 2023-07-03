@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;;
+}
+
+@font-face {
+    font-family: Raleway-Light;
+    src: url(../fonts/Raleway-Light.ttf);
+ }
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+ }
+
+h1{
+    font-family: Raleway-Medium;
+    font-size: 50px;
+}
+
+span{
+    font-family: Raleway-Light;
+}
+
+p{
+    font-family: Raleway-Light;
+}
+
+header{
+    display: flex;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    height: 73px;
+}
+
+.seccion1{
+    display: flex;   
+    background-color: #000000;   
+}
+
+.seccion1 img{
+    width: 100%;
+    
+}
+
+.seccion2{
+    display: flex;
+    height: 348px;
+    background-color: #000000;   
+    font-style: light;
+    font-size: 16px;
+    color: #FFFFFF;
+    justify-content:space-around;
+    align-items: center;
+    padding: 4em;
+    text-align: left;
+    padding-right: 150px;
+    padding-left: 10em;
+}
+
+.seccion2 img{
+    float: right;
+}
+
+.seccion3{
+    display: flex;   
+    background-color:#1E1A13;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4em;
+}
+
+.seccion4{
+    display: flex;  
+    background-color: #000000;   
+    color: #FFFFFF;
+    justify-content:center;
+    align-items: center;
+    height: 348px;
+    gap: 1em;
+}
+
+.caja_sec2_1{
+    width: 50%;
+    flex-direction: column;
+}
+
+.caja_sec2_2{
+    width: 50%;
+}
+
+.caja_sec3{
+    width: 33%;
+}
+
+.caja_sec4_1{
+    background-image: url(../imgs/iguana-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 316px;
+    height: 202px;
+}
+
+.caja_sec4_2{
+    background-image: url(../imgs/iguana-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 316px;
+    height: 202px;
+}
+
+.caja_sec4_3{
+    background-image: url(../imgs/iguana-4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 316px;
+    height: 202px;
+}
+
+footer{
+    display: flex;
+    background-color:#1E1A13;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 1em;
+    height: 102px;
+}
